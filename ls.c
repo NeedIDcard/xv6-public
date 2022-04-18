@@ -79,6 +79,7 @@ main(int argc, char *argv[])
     ls(".");
     exit();
   }
+  cps();
   for(i=1; i<argc; i++)
     ls(argv[i]);
   exit();
